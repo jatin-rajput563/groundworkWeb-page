@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="./assets/image/svg/fav-icon.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
@@ -30,23 +31,23 @@
                             <ul
                                 class="d-flex flex-column flex-lg-row list-unstyled align-items-center justify-content-center gap-32 mb-0">
                                 <li>
-                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0"
+                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0 transition"
                                         href="/">Home</a>
                                 </li>
                                 <li>
-                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0"
+                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0 transition"
                                         href="/">Groundwork</a>
                                 </li>
                                 <li>
-                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0"
+                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0 transition"
                                         href="/">Transport</a>
                                 </li>
                                 <li>
-                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0"
+                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0 transition"
                                         href="/">About</a>
                                 </li>
                                 <li>
-                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0"
+                                    <a class="navbar-link text-decoration-none text-hover text-white fs-md fw-normal lh-100 lts-0 transition"
                                         href="/">Contact</a>
                                 </li>
                             </ul>
@@ -55,7 +56,6 @@
                             <ul class="d-flex d-lg-block d-none list-unstyled mb-0">
                                 <li class="d-flex align-items-center justify-content-center mt-4 mt-lg-0">
                                     <div>
-                                        <!-- <img src="./assets/image/svg/search-icon.svg" alt=""> -->
                                         <svg class="cursor-pointer search-icon" width="41" height="41"
                                             viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <rect width="41" height="41" rx="6" fill="white" fill-opacity="0.2" />
@@ -74,7 +74,7 @@
                                         </svg>
                                     </div>
                                     <button
-                                        class="nav-btn border-0 text-white fs-md fw-semibold lh-100 lts-0 ml-24">Free
+                                        class="nav-btn border-0 text-white fs-md fw-semibold lh-100 lts-0 ml-24 transition">Free
                                         Quote</button>
                                 </li>
                             </ul>
@@ -101,12 +101,13 @@
                                             fill="white" />
                                     </svg>
                                 </div>
-                                <button class="nav-btn border-0 text-white fs-md fw-semibold lh-100 lts-0 ml-24">Free
+                                <button
+                                    class="nav-btn border-0 text-white fs-md fw-semibold lh-100 lts-0 ml-24 transition">Free
                                     Quote</button>
                             </li>
                         </ul>
                         <div onclick="navbarbtn()"
-                            class="d-flex d-lg-none align-items-center justify-content-center cursor-pointer menu-box ml-16 z-5">
+                            class="d-flex d-lg-none align-items-center justify-content-center cursor-pointer menu-box ml-16 transition z-5">
                             <svg class="d-none d-sm-block" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -143,10 +144,11 @@
                     Earthworks
                     and Excavations</p>
                 <button type="button"
-                    class="d-flex align-items-center border-0 justify-content-center text-white fs-lg fw-semibold gap-9 header-btn lh-100 lts-0">Explore
+                    class="d-flex align-items-center border-0 justify-content-center text-white fs-lg fw-semibold gap-9 header-btn lh-100 lts-0 transition">Explore
                     Groundwerken
                     <span>
-                        <svg class="header-btn-svg" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="header-btn-svg" width="12" height="12" viewBox="0 0 12 12" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.2002 1.0001L10.8002 10.6001" stroke="white" stroke-width="1.5"
                                 stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M10.8002 5.0001V10.6001H5.2002" stroke="white" stroke-width="1.5"
@@ -193,7 +195,8 @@
                         <div class="position-absolute jcb-cursor">
                             <div class="d-flex justify-content-end">
                                 <div>
-                                    <p class="m-0 text-black text-end text-white fs-xl fw-bold lh-28 lts-0 mx-w-390 pb-2">
+                                    <p
+                                        class="m-0 text-black text-end text-white fs-xl fw-bold lh-28 lts-0 mx-w-390 pb-2">
                                         Grondwerken
                                         Pieters – Precision Earthworks & Excavations</p>
                                     <p class="text-end text-white fs-sm fw-normal lh-22 lts-0">Building Foundations,
@@ -267,27 +270,27 @@
     <section class="position-relative pb-100 pt-100">
         <div class="container mx-w-1140">
             <div class="bg-orenge position-absolute right-0 top-0 top-right-box"></div>
-            <div class="d-flex gap-16 ml-30 center">
+            <div class="d-flex center gap-16 ml-30">
                 <img src="./assets/image/svg/line-svg.svg" alt="line-svg">
-                <p class="m-0 text-orenge fs-3xl fw-bold lh-43 lts-0 ">Our Gallery</p>
+                <p class="m-0 text-orenge fs-3xl fw-bold lh-43 lts-0">Our Gallery</p>
             </div>
             <div class="d-flex justify-content-center position-relative gap-32 mt-32 z-1">
                 <div class="d-flex flex-column">
-                    <img class="h-100 w-100 gallery-img-1 object-fit-cover"
+                    <img class="h-100 w-100 gallery-img-1 mx-w-217 object-fit-cover"
                         src="./assets/image/png/gallery-section-img-1.png" alt="gallery-section-img-1">
-                    <img class="h-100 w-100 gallery-img-2 mt-32 object-fit-cover"
+                    <img class="h-100 w-100 gallery-img-2 mt-32 mx-w-217 object-fit-cover"
                         src="./assets/image/png/gallery-section-img-2.png" alt="gallery-section-img-1">
                 </div>
                 <div class="d-flex flex-column">
-                    <img class="h-100 w-100 gallery-img-3 object-fit-cover"
+                    <img class="h-100 w-100 gallery-img-3 mx-w-217 object-fit-cover"
                         src="./assets/image/png/gallery-section-img-3.png" alt="gallery-section-img-3">
-                    <img class="h-100 w-100 gallery-img-4 mt-32 object-fit-cover"
+                    <img class="h-100 w-100 gallery-img-4 mt-32 mx-w-217 object-fit-cover"
                         src="./assets/image/png/gallery-section-img-4.png" alt="gallery-section-img-4">
                 </div>
                 <div class="d-flex flex-column">
-                    <img class="h-100 w-100 gallery-img-5 object-fit-cover"
+                    <img class="h-100 w-100 gallery-img-5 mx-w-217 object-fit-cover"
                         src="./assets/image/png/gallery-section-img-5.png" alt="gallery-section-img-5">
-                    <img class="h-100 w-100 gallery-img-6 mt-32 object-fit-cover"
+                    <img class="h-100 w-100 gallery-img-6 mt-32 mx-w-217 object-fit-cover"
                         src="./assets/image/png/gallery-section-img-6.png" alt="gallery-section-img-6">
                 </div>
             </div>
@@ -330,12 +333,14 @@
             </div>
             <div class="bg-orenge h-100 p-4 rounded-3 w-100 mt-60">
                 <p class="m-0 text-white fs-3xl fw-bold lh-43 lts-0 pb-17">Request A Quote</p>
-                <p class="m-0 text-white fs-lg fw-normal lh-26 lts-0 pb-3 d-sm-block d-none">Complete control over products
+                <p class="d-none d-sm-block m-0 text-white fs-lg fw-normal lh-26 lts-0 pb-3">Complete control over
+                    products
                     allow us
                     to our customers the best <br class="d-block d-md-none"> quality <br>
                     prices and services. We take great pride in everything that we do in <br class="d-block d-md-none">
                     Jhontraktor</p>
-                <p class="m-0 text-white fs-19 fw-normal lh-26  lts-0 pb-3 d-block d-sm-none">Complete control over products
+                <p class="d-block d-sm-none m-0 text-white fs-19 fw-normal lh-26 lts-0 pb-3">Complete control over
+                    products
                     allow us <br>
                     to our customers the best quality <br>
                     prices and services. We take great pride <br> in everything that we do in
@@ -351,7 +356,7 @@
                 <textarea class="border-0 text-black w-100 fs-lg fw-medium lh-26 lts-0 msge-input mt-3"
                     placeholder="Message"></textarea>
                 <button
-                    class="d-flex bg-black border-0 text-white fs-lg fw-semibold gap-16 lh-100 lts-0 msge-btn mt-3">Send
+                    class="d-flex bg-black border-0 text-white fs-lg fw-semibold gap-16 lh-100 lts-0 msge-btn mt-3 transition">Send
                     Message
                     <span>
                         <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -377,7 +382,7 @@
                         <p class="m-0 text-white fs-md fw-normal lh-26 mx-w-367 pt-24">Grondwerken Pieters – Your
                             reliable partner for all your earthworks and infrastructure projects.</p>
                         <div class="d-flex gap-4 pt-42">
-                            <a href="https://www.facebook.com/" class="text-decoration-none footer-hover"
+                            <a href="https://www.facebook.com/" class="text-decoration-none footer-hover transition"
                                 target="_blank">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -386,7 +391,8 @@
                                         fill="#E58E1A" />
                                 </svg>
                             </a>
-                            <a href="https://x.com/?lang=en" class="text-decoration-none footer-hover" target="_blank">
+                            <a href="https://x.com/?lang=en" class="text-decoration-none footer-hover transition"
+                                target="_blank">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -394,8 +400,8 @@
                                         fill="#E58E1A" />
                                 </svg>
                             </a>
-                            <a href="https://www.linkedin.com/feed/" class="text-decoration-none footer-hover"
-                                target="_blank">
+                            <a href="https://www.linkedin.com/feed/"
+                                class="text-decoration-none footer-hover transition" target="_blank">
                                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -403,7 +409,7 @@
                                         fill="#E58E1A" />
                                 </svg>
                             </a>
-                            <a href="https://www.instagram.com/" class="text-decoration-none footer-hover"
+                            <a href="https://www.instagram.com/" class="text-decoration-none footer-hover transition"
                                 target="_blank">
                                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -431,23 +437,23 @@
                                 </li>
                                 <li class="mb-3">
                                     <a href="#"
-                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Home</a>
+                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Home</a>
                                 </li>
                                 <li class="mb-3">
                                     <a href="#"
-                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Groundwork</a>
+                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Groundwork</a>
                                 </li>
                                 <li class="mb-3">
                                     <a href="#"
-                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Transport</a>
+                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Transport</a>
                                 </li>
                                 <li class="mb-3">
                                     <a href="#"
-                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">About</a>
+                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">About</a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Contact</a>
+                                        class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -457,23 +463,23 @@
                             </li>
                             <li class="mb-3">
                                 <a href="#"
-                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Home</a>
+                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Home</a>
                             </li>
                             <li class="mb-3">
                                 <a href="#"
-                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Groundwork</a>
+                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Groundwork</a>
                             </li>
                             <li class="mb-3">
                                 <a href="#"
-                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Transport</a>
+                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Transport</a>
                             </li>
                             <li class="mb-3">
                                 <a href="#"
-                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">About</a>
+                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">About</a>
                             </li>
                             <li>
                                 <a href="#"
-                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0">Contact</a>
+                                    class="text-decoration-none text-white footer-tags fs-md fw-normal lh-100 lts-0 transition">Contact</a>
                             </li>
                         </ul>
                         <div class="col-7 d-flex justify-content-lg-start justify-content-sm-end justify-content-start">
@@ -483,7 +489,7 @@
                                 </li>
                                 <li class="mb-16">
                                     <a href="tell:+1234567890"
-                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-100 lts-0">
+                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-100 lts-0 transition">
                                         <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -495,7 +501,7 @@
                                 </li>
                                 <li class="mb-16">
                                     <a href="mailto:mail@pietersbvgrondwerken.com"
-                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-100 lts-0">
+                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-100 lts-0 transition">
                                         <svg width="20" height="18" viewBox="0 0 20 18" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -506,8 +512,9 @@
                                     </a>
                                 </li>
                                 <li class="mb-16">
-                                    <a href="#"
-                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-100 lts-0">
+                                    <a href="https://www.google.com/maps/place/Esplanadi/@60.1674815,10.7426704,5z/data=!4m10!1m2!2m1!1sWest+Avenue,+Square+Park+Finland!3m6!1s0x46920bcec869ae9f:0xf00b5523c15ba30!8m2!3d60.1674815!4d24.9476095!15sCiBXZXN0IEF2ZW51ZSwgU3F1YXJlIFBhcmsgRmlubGFuZFohIh93ZXN0IGF2ZW51ZSBzcXVhcmUgcGFyayBmaW5sYW5kkgEEcGFya-ABAA!16zL20vMDk3MDR2?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoASAFQAw%3D%3D"
+                                        target="_blank"
+                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-100 lts-0 transition">
                                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -519,7 +526,7 @@
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-21 lts-0">
+                                        class="d-flex align-items-center text-decoration-none text-white footer-tags-2 fs-sm fw-normal gap-3 lh-21 lts-0 transition">
                                         <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path

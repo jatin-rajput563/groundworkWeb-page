@@ -13,6 +13,9 @@
     height: 40px;
     border-radius: 6px;
     background: #FFFFFF33;
+}
+
+.transition {
     transition: all 200ms linear;
 }
 
@@ -54,7 +57,6 @@
     border-radius: 6px;
     padding: 13.5px 25px;
     background-color: var(--color-orenge);
-    transition: all 200ms linear;
     white-space: nowrap !important;
 }
 
@@ -65,10 +67,6 @@
 
 .ml-24 {
     margin-left: 24px;
-}
-
-.text-hover {
-    transition: all 200ms linear;
 }
 
 .text-hover:hover {
@@ -88,7 +86,6 @@
     padding: 16px 24px;
     border-radius: 6px;
     background-color: var(--color-orenge);
-    transition: all 200ms linear;
 }
 
 .header-btn:hover {
@@ -233,17 +230,12 @@
     padding-bottom: 24px;
 }
 
-
 /* ----------section-4---------- */
 .sec-4-bg {
     background-image: url(../image/png/section-4-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.mt-100 {
-    margin-top: 100px;
 }
 
 .mx-w-730 {
@@ -286,12 +278,12 @@
     border-radius: 4px;
     padding: 16px;
     outline: none;
+    resize: none;
 }
 
 .msge-btn {
     padding: 16px 24px;
     border-radius: 6px;
-    transition: all 200ms linear;
 }
 
 .msge-btn:hover {
@@ -336,16 +328,8 @@ textarea::placeholder {
     max-width: 367px;
 }
 
-.footer-hover {
-    transition: all 200ms linear;
-}
-
 .footer-hover:hover path {
     fill: var(--color-white) !important;
-}
-
-.footer-tags {
-    transition: all 200ms linear;
 }
 
 .footer-tags:hover {
@@ -354,7 +338,6 @@ textarea::placeholder {
 }
 
 .footer-tags-2 {
-    transition: all 200ms linear;
     width: max-content;
 }
 
@@ -369,10 +352,6 @@ textarea::placeholder {
 
 .pt-48 {
     padding-top: 48px;
-}
-
-.pb-48 {
-    padding-bottom: 48px;
 }
 
 .footer-line {
@@ -447,18 +426,23 @@ textarea::placeholder {
 .pl-15 {
     padding-left: 15px;
 }
+
 .pb-16 {
     padding-bottom: 16px;
 }
+
 .pb-17 {
     padding-bottom: 17px;
 }
-.pt-24{
+
+.pt-24 {
     padding-top: 24px;
 }
-.pt-42{
+
+.pt-42 {
     padding-top: 42px;
 }
+
 /* ------------------------ */
 .lh-100 {
     line-height: 100%;
@@ -491,22 +475,28 @@ textarea::placeholder {
 .lts-0 {
     letter-spacing: 0;
 }
-.lh-21{
+
+.lh-21 {
     line-height: 21px;
 }
+
 .lh-121 {
     line-height: 121%;
 }
+
 .fs-19 {
     font-size: 19px;
 }
+
 .fs-18 {
     font-size: 18px;
 }
+
 .py-32 {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+
 /* ------------------------ */
 @media (max-width:1139.98px) {
     .truck-img {
@@ -534,6 +524,7 @@ textarea::placeholder {
     .lh-28 {
         line-height: 25px;
     }
+
     .mx-w-690 {
         max-width: 536px;
         height: 266px;
@@ -584,33 +575,31 @@ textarea::placeholder {
     }
 
     .gallery-img-1 {
-        max-width: 217px !important;
         max-height: 320px;
     }
 
     .gallery-img-2 {
-        max-width: 217px;
         max-height: 407px;
     }
 
     .gallery-img-3 {
-        max-width: 217px;
         max-height: 407px;
     }
 
     .gallery-img-4 {
-        max-width: 217px;
         max-height: 320px;
     }
 
     .gallery-img-5 {
-        max-width: 217px;
         max-height: 250px;
     }
 
     .gallery-img-6 {
-        max-width: 217px;
         max-height: 477px;
+    }
+
+    .mx-w-217 {
+        max-width: 217px !important;
     }
 
     .top-right-box {
@@ -646,6 +635,7 @@ textarea::placeholder {
     .h-863 {
         min-height: 443px;
     }
+
     .center {
         justify-content: center;
         display: flex;
@@ -659,20 +649,25 @@ textarea::placeholder {
     .nav-logo {
         width: 141px;
     }
+
     .fs-18 {
         font-size: 16px !important;
     }
-    .pb-24{
+
+    .pb-24 {
         padding-bottom: 16px;
     }
+
     .truck-img {
         max-width: 250px;
         max-height: 375px;
     }
+
     .py-32 {
         padding-top: 24px;
         padding-bottom: 24px;
     }
+
     .jcb-img {
         max-width: 250px;
         max-height: 375px;
@@ -772,6 +767,7 @@ textarea::placeholder {
     .h-863 {
         min-height: 314px;
     }
+
     .pb-16 {
         padding-bottom: 10px;
     }
@@ -782,17 +778,21 @@ textarea::placeholder {
         max-width: 191px;
         max-height: 188px;
     }
-    .pt-42{
+
+    .pt-42 {
         padding-top: 16px;
     }
+
     .jcb-img {
         max-width: 188px;
         max-height: 188px;
     }
+
     .top-right-box {
         width: 153px;
         height: 146px;
     }
+
     .mx-w-669 {
         max-width: 339px !important;
     }
@@ -807,32 +807,41 @@ textarea::placeholder {
         max-width: 150px;
         max-height: 165px;
     }
+
     .pb-16 {
         padding-bottom: 3px;
     }
-    .pb-17{
+
+    .pb-17 {
         padding-bottom: 8px;
     }
+
     .fs-18 {
         font-size: 12px !important;
     }
-    .pb-24{
+
+    .pb-24 {
         padding-bottom: 12px;
     }
+
     .jcb-img {
         max-width: 150px;
         max-height: 160px;
     }
+
     .fs-19 {
         font-size: 12px;
     }
+
     .mx-w-669 {
         max-width: 265px !important;
     }
+
     .py-32 {
         padding-top: 16px;
         padding-bottom: 16px;
     }
+
     .nav-logo {
         width: 94px;
     }
@@ -880,10 +889,11 @@ textarea::placeholder {
         padding-bottom: 65px;
     }
 
-    .header-btn-svg{
+    .header-btn-svg {
         width: 9px;
         height: 9px;
     }
+
     .mx-w-607 {
         max-width: 233px;
     }
@@ -917,33 +927,31 @@ textarea::placeholder {
     }
 
     .gallery-img-1 {
-        max-width: 109px !important;
         max-height: 110px !important;
     }
 
     .gallery-img-2 {
-        max-width: 109px;
         max-height: 140px;
     }
 
     .gallery-img-3 {
-        max-width: 109px;
         max-height: 140px;
     }
 
     .gallery-img-4 {
-        max-width: 109px;
         max-height: 110px;
     }
 
     .gallery-img-5 {
-        max-width: 109px;
         max-height: 90px;
     }
 
     .gallery-img-6 {
-        max-width: 109px;
         max-height: 160px;
+    }
+
+    .mx-w-217 {
+        max-width: 109px !important;
     }
 
     .top-right-box {
@@ -966,21 +974,26 @@ textarea::placeholder {
     .h-863 {
         min-height: 200px;
     }
-    .line-svg{
+
+    .line-svg {
         width: 20px !important;
     }
+
     .pt-26 {
         padding-top: 26px;
     }
+
     .msge-btn {
         padding: 13.5px 16.5px;
         border-radius: 6px;
         transition: all 200ms linear;
     }
-    .pt-24{
+
+    .pt-24 {
         padding-top: 16px;
     }
-    .pt-42{
+
+    .pt-42 {
         padding-top: 16px;
     }
 }
@@ -989,6 +1002,7 @@ textarea::placeholder {
     .top-right-box {
         display: none;
     }
+
     .ml-15 {
         margin-left: 0;
     }
