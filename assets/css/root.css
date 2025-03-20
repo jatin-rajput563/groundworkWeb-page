@@ -11,6 +11,7 @@
     --color-orenge: #E58E1A;
     --color-white: white;
     --color-black: black;
+    --color-light-black:#0E0E0E;
 }
 
 .fs-sm {
@@ -47,6 +48,9 @@
 
 .bg-orenge {
     background-color: var(--color-orenge) !important;
+}
+.bg-light-black {
+    background-color: var(--color-light-black) !important;
 }
 
 .text-orenge {

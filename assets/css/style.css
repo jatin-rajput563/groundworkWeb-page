@@ -450,6 +450,9 @@ textarea::placeholder {
 .pb-16 {
     padding-bottom: 16px;
 }
+.pb-17 {
+    padding-bottom: 17px;
+}
 
 /* ------------------------ */
 .lh-100 {
@@ -488,6 +491,9 @@ textarea::placeholder {
     line-height: 121%;
 }
 .fs-19 {
+    font-size: 18px;
+}
+.fs-18 {
     font-size: 18px;
 }
 /* ------------------------ */
@@ -700,11 +706,11 @@ textarea::placeholder {
     }
 
     .ml-15 {
-        margin-left: 15px;
+        margin-left: 12px;
     }
 
     .ml-5 {
-        margin-left: 5px;
+        margin-left: 7px;
     }
 
     .mx-w-892 {
@@ -777,6 +783,12 @@ textarea::placeholder {
     }
     .pb-16 {
         padding-bottom: 3px;
+    }
+    .pb-17{
+        padding-bottom: 8px;
+    }
+    .fs-18 {
+        font-size: 12px;
     }
     .pb-24{
         padding-bottom: 12px;
@@ -930,6 +942,11 @@ textarea::placeholder {
     }
     .pt-26 {
         padding-top: 26px;
+    }
+    .msge-btn {
+        padding: 13.5px 16.5px;
+        border-radius: 6px;
+        transition: all 200ms linear;
     }
 }
 
