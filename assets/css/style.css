@@ -643,32 +643,35 @@ textarea::placeholder {
     }
 
     .gallery-img-1 {
+        max-width: 217px !important;
         max-height: 320px;
     }
 
     .gallery-img-2 {
+        max-width: 217px !important;
         max-height: 407px;
     }
 
     .gallery-img-3 {
-        max-height: 407px;
+        max-width: 217px !important;
+        max-height: 407px !important;
     }
 
     .gallery-img-4 {
+        max-width: 217px !important;
         max-height: 320px;
     }
 
     .gallery-img-5 {
+        max-width: 217px !important;
         max-height: 250px;
     }
 
     .gallery-img-6 {
+        max-width: 217px !important;
         max-height: 477px;
     }
 
-    .mx-w-217 {
-        max-width: 217px !important;
-    }
 
     .top-right-box {
         width: 274px;
@@ -702,14 +705,6 @@ textarea::placeholder {
 
     .h-863 {
         min-height: 443px;
-    }
-
-    .center {
-        justify-content: center;
-        display: flex;
-        align-items: center;
-        margin: auto;
-        text-align: center;
     }
 }
 
