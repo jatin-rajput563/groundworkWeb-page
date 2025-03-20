@@ -487,7 +487,9 @@ textarea::placeholder {
 .lh-121 {
     line-height: 121%;
 }
-
+.fs-19 {
+    font-size: 18px;
+}
 /* ------------------------ */
 @media (max-width:1139.98px) {
     .truck-img {
@@ -514,6 +516,10 @@ textarea::placeholder {
 
     .lh-28 {
         line-height: 25px;
+    }
+    .mx-w-690 {
+        max-width: 536px;
+        height: 266px;
     }
 }
 
@@ -604,7 +610,7 @@ textarea::placeholder {
     }
 
     .mx-w-690 {
-        max-width: 957px;
+        max-width: 987px;
         height: 266px;
     }
 
@@ -776,7 +782,9 @@ textarea::placeholder {
         max-width: 150px;
         max-height: 160px;
     }
-
+    .fs-19 {
+        font-size: 12px;
+    }
     .mx-w-669 {
         max-width: 265px !important;
     }
@@ -913,6 +921,12 @@ textarea::placeholder {
 
     .h-863 {
         min-height: 180px;
+    }
+    .line-svg{
+        width: 20px !important;
+    }
+    .pt-26 {
+        padding-top: 26px;
     }
 }
 
