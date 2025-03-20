@@ -453,7 +453,12 @@ textarea::placeholder {
 .pb-17 {
     padding-bottom: 17px;
 }
-
+.pt-24{
+    padding-top: 24px;
+}
+.pt-42{
+    padding-top: 42px;
+}
 /* ------------------------ */
 .lh-100 {
     line-height: 100%;
@@ -486,15 +491,21 @@ textarea::placeholder {
 .lts-0 {
     letter-spacing: 0;
 }
-
+.lh-21{
+    line-height: 21px;
+}
 .lh-121 {
     line-height: 121%;
 }
 .fs-19 {
-    font-size: 18px;
+    font-size: 19px;
 }
 .fs-18 {
     font-size: 18px;
+}
+.py-32 {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 /* ------------------------ */
 @media (max-width:1139.98px) {
@@ -641,6 +652,9 @@ textarea::placeholder {
     .nav-logo {
         width: 141px;
     }
+    .fs-18 {
+        font-size: 16px !important;
+    }
     .pb-24{
         padding-bottom: 16px;
     }
@@ -648,7 +662,10 @@ textarea::placeholder {
         max-width: 250px;
         max-height: 375px;
     }
-
+    .py-32 {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
     .jcb-img {
         max-width: 250px;
         max-height: 375px;
@@ -758,7 +775,9 @@ textarea::placeholder {
         max-width: 191px;
         max-height: 188px;
     }
-
+    .pt-42{
+        padding-top: 16px;
+    }
     .jcb-img {
         max-width: 188px;
         max-height: 188px;
@@ -788,7 +807,7 @@ textarea::placeholder {
         padding-bottom: 8px;
     }
     .fs-18 {
-        font-size: 12px;
+        font-size: 12px !important;
     }
     .pb-24{
         padding-bottom: 12px;
@@ -803,7 +822,10 @@ textarea::placeholder {
     .mx-w-669 {
         max-width: 265px !important;
     }
-
+    .py-32 {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
     .nav-logo {
         width: 94px;
     }
@@ -947,6 +969,12 @@ textarea::placeholder {
         padding: 13.5px 16.5px;
         border-radius: 6px;
         transition: all 200ms linear;
+    }
+    .pt-24{
+        padding-top: 16px;
+    }
+    .pt-42{
+        padding-top: 16px;
     }
 }
 
