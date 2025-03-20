@@ -447,6 +447,9 @@ textarea::placeholder {
 .pl-15 {
     padding-left: 15px;
 }
+.pb-16 {
+    padding-bottom: 16px;
+}
 
 /* ------------------------ */
 .lh-100 {
@@ -614,7 +617,7 @@ textarea::placeholder {
     }
 
     .pt-148 {
-        padding-top: 30px !important;
+        padding-top: 15px !important;
     }
 
     .h-863 {
@@ -626,7 +629,9 @@ textarea::placeholder {
     .nav-logo {
         width: 141px;
     }
-
+    .pb-24{
+        padding-bottom: 16px;
+    }
     .truck-img {
         max-width: 250px;
         max-height: 375px;
@@ -731,6 +736,9 @@ textarea::placeholder {
     .h-863 {
         min-height: 314px;
     }
+    .pb-16 {
+        padding-bottom: 10px;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -758,7 +766,12 @@ textarea::placeholder {
         max-width: 150px;
         max-height: 165px;
     }
-
+    .pb-16 {
+        padding-bottom: 3px;
+    }
+    .pb-24{
+        padding-bottom: 12px;
+    }
     .jcb-img {
         max-width: 150px;
         max-height: 160px;
@@ -800,7 +813,7 @@ textarea::placeholder {
     }
 
     .ml-24 {
-        margin-left: 12px;
+        margin-left: 8px;
     }
 
     .ml-16 {
@@ -815,12 +828,16 @@ textarea::placeholder {
         padding-bottom: 65px;
     }
 
+    .header-btn-svg{
+        width: 9px;
+        height: 9px;
+    }
     .mx-w-607 {
         max-width: 233px;
     }
 
     .header-btn {
-        padding: 12px 14px;
+        padding: 11.5px 14.5px;
     }
 
     .lh-34 {
@@ -895,7 +912,7 @@ textarea::placeholder {
     }
 
     .h-863 {
-        min-height: 213px;
+        min-height: 180px;
     }
 }
 
