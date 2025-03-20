@@ -598,7 +598,11 @@ textarea::placeholder {
         height: 266px;
     }
 }
-
+@media (max-width:1024.98px) {
+    .mx-w-690 {
+        max-width: 483px;
+    }
+}
 @media (max-width:991.98px) {
     .truck-img {
         max-width: 381px;
